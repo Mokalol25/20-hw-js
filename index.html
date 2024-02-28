@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <!-- 1-task -->
+    <h1 class="task">Перше Завдання</h1>
     <ul class="gallery">
             <li>       
                 <img class="image" src="https://images.pexels.com/photos/4617294/pexels-photo-4617294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="зображення">
-            </li>       
-            <li>       
-                <img class="image" src="https://images.pexels.com/photos/4617294/pexels-photo-4617294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="зображення">     
             </li>
             <li>       
                 <img class="image" src="https://images.pexels.com/photos/11815778/pexels-photo-11815778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="зображення">
@@ -34,10 +36,11 @@
     </div>
 
     <!-- 2-task -->
+    <h1 class="task">Друге Завдання</h1>
     <div id="controls">
-        <input type="number" min="0" max="100" step="1" />
-        <button type="button" data-action="render">Створити</button>
-        <button type="button" data-action="destroy">Очистити</button>
+        <input type="number" min="0" max="100" step="1" class="input"/>
+        <button type="button" data-action="render" class="create">Створити</button>
+        <button type="button" data-action="destroy" class="delete">Очистити</button>
     </div>
     <div id="boxes"></div>
 
