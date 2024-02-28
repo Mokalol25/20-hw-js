@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
   function showFullImage(index) {
     fullImage.src = images[index].src;
     fullImageBackdrop.style.display = 'block';
+    currentIndex = index;
   }
   function nextImage() {
     currentIndex = (currentIndex + 1);
